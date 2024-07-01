@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Criptografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <img src="alura.png" alt="Imagem" class="imagem">
+            <h1>Digite seu texto</h1>
+            <textarea id="inputText" placeholder="Digite o texto aqui..."></textarea>
+            <div>
+                <button class="primary" onclick="encryptText()">Criptografar</button>
+                <button class="secondary" onclick="decryptText()">Descriptografar</button>
+            </div>
+        </div>            
+     
+        <div class="right-panel">
+            <img src="alura.png" alt="Imagem" class="imagem">
+            <div class="result" id="result">Nenhuma mensagem encontrada</div>
+            <button class="copy" onclick="copyToClipboard()">Copiar</button>        
+        </div>
+    </div>
+    <footer>Desenvolvido por Fabio Grigorim</footer>
+    <script src="script.js"></script>
+</body>
+</html>
